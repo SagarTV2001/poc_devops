@@ -6,7 +6,7 @@ int main() {
     int result;   // use int since add/subtract return int
 
     printf("Simple Calculator\n");
-    printf("1. Add");
+    printf("1. Add\n2.sub");
     printf("Enter your choice: ");
     scanf("%d", &choice);
 
@@ -16,6 +16,10 @@ int main() {
     switch (choice) {
         case 1:
             result = add(num1, num2);
+            printf("Result = %d\n", result);
+            break;
+                case 2:
+            result = sub(num1, num2);
             printf("Result = %d\n", result);
             break;
         default:
