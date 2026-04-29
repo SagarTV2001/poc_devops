@@ -2,7 +2,9 @@
 #include "calculator.h"
 
 int main() {
-    int num1, num2, choice;
+    int num1;
+    int num2;
+    int choice;
     int result;   // use int since add/subtract return int
 
     printf("Simple Calculator\n");
@@ -24,6 +26,10 @@ int main() {
             break;
                         case 3:
             result = div(num1, num2);
+            printf("Result = %d\n", result);
+            break;
+                                case 4:
+            result = mul(num1, num2);
             printf("Result = %d\n", result);
             break;
         default:
