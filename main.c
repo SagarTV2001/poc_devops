@@ -26,14 +26,6 @@ int rectangleArea(int length, int width);// use int since add/subtract return in
             result = sub(num1, num2);
             printf("Result = %d\n", result);
             break;
-                        case 3:
-            result = div(num1, num2);
-            printf("Result = %d\n", result);
-            break;
-                                case 4:
-            result = mul(num1, num2);
-            printf("Result = %d\n", result);
-            break;
         default:
             printf("Invalid choice!\n");
     }
