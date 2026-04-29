@@ -5,7 +5,9 @@ int main() {
     int num1;
     int num2;
     int choice;
-    int result;   // use int since add/subtract return int
+    int result; 
+    int squareArea(int side);
+int rectangleArea(int length, int width);// use int since add/subtract return int
 
     printf("Simple Calculator\n");
     printf("1. Add\n2.sub\n3.Divide");
