@@ -22,7 +22,7 @@ int main() {
             result = sub(num1, num2);
             printf("Result = %d\n", result);
             break;
-                        case 2:
+                        case 3:
             result = div(num1, num2);
             printf("Result = %d\n", result);
             break;
