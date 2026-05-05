@@ -3,7 +3,8 @@
 #include "area.h"
 
 int main() {
-    int num1, num2;
+    int num1;
+    int num2;
     int choice;
     int result;
 
