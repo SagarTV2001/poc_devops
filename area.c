@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <area.h>
+#include "area.h"
 
 int squareArea(int side)
 {
