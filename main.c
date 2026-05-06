@@ -11,6 +11,7 @@ int main() {
     printf("1. Add\n");
     printf("2. Subtract\n");
     printf("3. Multiply\n");
+    printf("4. divide\n");
   
     
 
@@ -35,6 +36,12 @@ int main() {
             printf("Enter two numbers: ");
             scanf("%d %d", &num1, &num2);
             result = mul(num1, num2);
+            printf("Result = %d\n", result);
+            break;
+        case 4:
+            printf("Enter two numbers: ");
+            scanf("%d %d", &num1, &num2);
+            result = div(num1, num2);
             printf("Result = %d\n", result);
             break;
 
