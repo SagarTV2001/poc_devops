@@ -2,7 +2,7 @@
 #define TEST_H
  
 
-int vol(int a, int b);
+int circum(int a, int b);
 
 
 
