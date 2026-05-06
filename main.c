@@ -2,6 +2,8 @@
 #include "calculator.h"
 #include "area.h"
 #include "test.h"
+#include "test1.h"
+
 
 int main() {
     int num1;
@@ -15,8 +17,7 @@ int main() {
     printf("3. Area\n");
     printf("4. Volume\n");
     printf("5. Circumference\n");
-    printf("6. Vol\n");
-    
+    printf("6. degree\n");
    
     
 
@@ -58,7 +59,7 @@ int main() {
         case 6:
             printf("Enter two numbers: ");
             scanf("%d %d", &num1, &num2);
-            result = vol(num1, num2);
+            result = degree(num1, num2);
             printf("Result = %d\n", result);
             break;
                 
