@@ -10,9 +10,7 @@ int main() {
     printf("Simple Calculator\n");
     printf("1. Add\n");
     printf("2. Subtract\n");
-    printf("3. Multiply\n");
-    printf("4. divide\n");
-  
+   
     
 
     printf("Enter your choice: ");
@@ -32,18 +30,7 @@ int main() {
             result = sub(num1, num2);
             printf("Result = %d\n", result);
             break;
-                case 3:
-            printf("Enter two numbers: ");
-            scanf("%d %d", &num1, &num2);
-            result = mul(num1, num2);
-            printf("Result = %d\n", result);
-            break;
-        case 4:
-            printf("Enter two numbers: ");
-            scanf("%d %d", &num1, &num2);
-            result = div(num1, num2);
-            printf("Result = %d\n", result);
-            break;
+                
 
         default:
             printf("Invalid choice!\n");
