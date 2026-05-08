@@ -19,6 +19,7 @@ int main() {
     printf("4. Volume\n");
     printf("5. Circumference\n");
     printf("6. degree\n");
+    printf("7. subtract\n");
    
     
 
@@ -55,6 +56,12 @@ int main() {
             printf("Enter two numbers: ");
             scanf("%d %d", &num1, &num2);
             result = degree(num1, num2);
+            printf("Result = %d\n", result);
+            break;
+                case 7:
+            printf("Enter two numbers: ");
+            scanf("%d %d", &num1, &num2);
+            result = sub(num1, num2);
             printf("Result = %d\n", result);
             break;
                 
