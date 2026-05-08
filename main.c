@@ -3,6 +3,7 @@
 #include "area.h"
 #include "test.h"
 #include "test1.h"
+#include "test2.h"
 
 
 int main() {
