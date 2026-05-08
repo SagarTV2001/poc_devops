@@ -13,7 +13,7 @@ int main() {
 
     printf("Simple Calculator\n");
     printf("1. Add\n");
-    printf("2. Subtract\n");
+
     printf("3. Area\n");
     printf("4. Volume\n");
     printf("5. Circumference\n");
@@ -32,12 +32,6 @@ int main() {
             printf("Result = %d\n", result);
             break;
 
-        case 2:
-            printf("Enter two numbers: ");
-            scanf("%d %d", &num1, &num2);
-            result = sub(num1, num2);
-            printf("Result = %d\n", result);
-            break;
         case 3:
             printf("Enter two numbers: ");
             scanf("%d %d", &num1, &num2);
